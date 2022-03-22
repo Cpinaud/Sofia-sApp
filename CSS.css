@@ -1,7 +1,141 @@
-html {
-    background: url(img/background.jpg) no-repeat   center;
+@font-face {
+    font-family: 'Japanese3017';
+    src: url('Japanese3017.ttf') ;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+body {
+    background: url(img/background.jpg) no-repeat   center center fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
+    display: flex;
+    justify-content:space-between;
+    align-self: center;
+    padding:20px;
+    font-family: "Japanese3017";
+    font-size: 20px;
+}
+
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color:#fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+       
+}
+.btn-whatsapp img{
+    border-radius: 100%;
+    padding: 0;
+    box-shadow: 6px 6px 10px black; 
+}
+
+.menu{
+    width: 50%;
+    background-color: rgba(231, 226, 226, 0.692);
+    border-radius: 20px;
+    Color:black;
+    text-align:center;
+    height: 100%;
+   
+    
+}
+
+.card img{
+    width: 250px;
+    height: 250px;
+    border-radius:125px;
+}
+
+.card{
+    width: 100%;
+    height: 80%;
+    margin: 10px;
+    background-color: rgba(231, 226, 226, 0.0);
+    border:none;
+    
+}
+
+
+.card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#botonClick,#botonClicka,#botonClickg{
+    background-color: rgba(39, 201, 39,0);
+    border:none;
+}
+
+#botonClick img,#botonClick1 img,#botonClicka img,#botonClick1a img,#botonClickg img,#botonClick1g img{
+    width: 20%;
+    height: 70%;
+}
+
+
+#botonClick1,#botonClick1a,#botonClick1g{
+    display: none;
+    border: none;
+    background-color: rgba(39, 201, 39,0);;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cantidad,#precio,#cantidada,#precioa,#cantidadg,#preciog{
+    display: none;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.ininfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+#suma:hover,#resta:hover{
+    width: 22%;
+    height: 74%;
+}
+
+.lista{
+    display: none;
+}
+
+.compra{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+#fin{
+    background-color: rgb(18, 190, 18);
+    border: 2px solid white;
+    font-weight: lighter;
+}
+
+#lista{
+    display: none;
 }
