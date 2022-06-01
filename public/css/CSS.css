@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Japanese3017';
-    src: url('Japanese3017.ttf') ;
+    src: url('http://localhost/public/Japanese3017.ttf') ;
     font-style: normal;
     font-weight: normal;
   }
@@ -8,9 +8,6 @@
 body {
     background: url(http://localhost/public/img/background.jpg) no-repeat   center center fixed;
     background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
     display: flex;
     justify-content:space-between;
     align-self: center;
@@ -19,25 +16,10 @@ body {
     font-size: 20px;
 }
 
-.btn-whatsapp {
-    display:block;
-    width:70px;
-    height:70px;
-    color:#fff;
-    position: fixed;
-    right:20px;
-    bottom:20px;
-    border-radius:50%;
-    line-height:80px;
-    text-align:center;
-    z-index:999;
-       
+.corroborar-pedido{
+    border: 2px solid red;
 }
-.btn-whatsapp img{
-    border-radius: 100%;
-    padding: 0;
-    box-shadow: 6px 6px 10px black; 
-}
+
 
 .menu{
     width: 50%;

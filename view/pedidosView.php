@@ -1,21 +1,14 @@
-<div class="btn-whatsapp">
-      <a
-        href="https://api.whatsapp.com/send?phone=111531094603&text=hola,%20qué%20tal?"
-        target="_blank"
-      >
-        <img src="img/wpp.png" alt="" />
-      </a>
-    </div>
+
     <div class="menu ">
 <!--MENU-->
 <div class="card mb-3 card-content">
-    <img src="img/lentejas.jpg" class="card-img-top" alt="...">
+    <img src="http://localhost/public/img/lentejas.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Hamburguesas de lentejas</h5>
       <p class="card-text">4 X $370</p>  
       <div class="botones">
-        <button id="botonClick"><img id="suma" src="img/SUMA.png" alt=""></button>
-        <button id="botonClick1"><img id="resta" src="img/menos.png" alt=""></button>
+        <button id="botonClick"><img id="suma" src="http://localhost/public/img/suma.png" alt=""></button>
+        <button id="botonClick1"><img id="resta" src="http://localhost/public/img/resta.png" alt=""></button>
       </div>
       <div class="info">
           <div class="ininfo">
@@ -66,13 +59,13 @@
      </div>
   </div>
   <div class="card mb-3 card-content">
-    <img src="img/arvejas.jpg" class="card-img-top" alt="...">
+    <img src="http://localhost/public/img/arvejas.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Hamburguesas de arvejas</h5>
       <p class="card-text">4 X $350</p>  
       <div class="botones">
-        <button id="botonClicka"><img id="suma" src="img/SUMA.png" alt=""></button>
-        <button id="botonClick1a"><img id="resta" src="img/menos.png" alt=""></button>
+        <button id="botonClicka"><img id="suma" src="http://localhost/public/img/suma.png" alt=""></button>
+        <button id="botonClick1a"><img id="resta" src="http://localhost/public/img/resta.png" alt=""></button>
       </div>
       <div class="info">
           <div class="ininfo">
@@ -123,13 +116,13 @@
      </div>
   </div>
   <div class="card mb-3 card-content">
-    <img src="img/garbanzos.jpg" class="card-img-top" alt="...">
+    <img src="http://localhost/public/img/garbanzos.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Hamburguesas de garbanzos</h5>
       <p class="card-text">4 X $360</p>  
       <div class="botones">
-        <button id="botonClickg"><img id="suma" src="img/SUMA.png" alt=""></button>
-        <button id="botonClick1g"><img id="resta" src="img/menos.png" alt=""></button>
+        <button id="botonClickg"><img id="suma" src="http://localhost/public/img/suma.png" alt=""></button>
+        <button id="botonClick1g"><img id="resta" src="http://localhost/public/img/resta.png" alt=""></button>
       </div>
       <div class="info">
           <div class="ininfo">
@@ -181,9 +174,6 @@
   </div>
      </div>
      <div class="compra">
-        <div class="fin">
-            <button id="fin">CORROBORAR PEDIDO</button>    
-        </div>
         <div id="lista">
             <p id="prueba" ></p>
                 <script type="text/javascript">
@@ -196,6 +186,12 @@
 
                 </script>
         </div>
+        <div class="corroborar-pedido">
+      <a
+        href="https://api.whatsapp.com/send?phone=111531094603&text=hola,%20qué%20tal?"
+        target="blank">CORROBORAR PEDIDO</a>
+    </div>
+    <!--JAVASCRIPT-->
         <script type="text/javascript">
             var Corrobora = document.getElementById("fin");
             var Lista = document.getElementById("lista");
