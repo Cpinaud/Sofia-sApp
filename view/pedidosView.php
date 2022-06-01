@@ -4,7 +4,8 @@
 <div class="card mb-3 card-content">
     <img src="http://localhost/public/img/lentejas.png" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Hamburguesas de lentejas</h5>
+      <h5 class="card-title">Hamburguesas de legumbres
+      </h5>
       <p class="card-text">4 X $370</p>  
       <div class="botones">
         <button id="botonClick"><img id="suma" src="http://localhost/public/img/suma.png" alt=""></button>
