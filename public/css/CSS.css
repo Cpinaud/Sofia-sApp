@@ -8,49 +8,78 @@
 body {
     background: url(http://localhost/public/img/background.jpg) no-repeat   center center fixed;
     background-size: cover;
-    display: flex;
-    justify-content:space-between;
-    align-self: center;
     padding:20px;
-    font-family: "Japanese3017";
-    font-size: 20px;
+   /* font-family: "Japanese3017";*/
+    font-size: 1rem;
 }
+.contenido{
+    justify-content:space-around;
 
-.corroborar-pedido{
-    border: 2px solid red;
 }
-
-
-.menu{
-    width: 50%;
-    background-color: rgba(231, 226, 226, 0.692);
-    border-radius: 20px;
-    Color:black;
-    text-align:center;
-    height: 100%;
-   
+::-webkit-scrollbar {
+    display: none;
+    }
+.menu,.pedido{
+    background-color: rgba(231, 226, 226, 0.6);
+    border-radius: 2%;
+    overflow-y: scroll;
+    height: 85vh;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    justify-content: center !important;
+    
+}
+.lista{
+    height: 80vh;
+    border :1px solid black;
+    background-color: rgba(231, 226, 226, 0.8);
+    margin: 1rem;
+    text-decoration: underline;
     
 }
 
-.card img{
-    width: 250px;
-    height: 250px;
-    border-radius:125px;
+
+
+.lista h5{
+    text-align: right;
 }
+
+.finalizar-pedido{
+    display: block;
+    right: 10px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgb(20, 180, 20);
+    margin: 0.5rem;
+
+    
+}
+
+a{
+    color: white;
+}
+
+
 
 .card{
-    width: 100%;
-    height: 80%;
-    margin: 10px;
-    background-color: rgba(231, 226, 226, 0.0);
-    border:none;
+    width: 90% !important;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin:5%;
     
 }
+.dropdown-menu p{
+    text-align: center;
+}
 
+@media (max-width:300px){
 
+    
+    
+}
+/*
 .card-content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     
@@ -78,46 +107,13 @@ body {
     justify-content: space-between;
 }
 
-#cantidad,#precio,#cantidada,#precioa,#cantidadg,#preciog{
-    display: none;
-}
-
-.info{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-
-.ininfo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
-}
-
 #suma:hover,#resta:hover{
     width: 22%;
     height: 74%;
 }
 
-.lista{
-    display: none;
-}
 
-.compra{
-    display: flex;
-    align-items: center;
-    
-    
-}
+*/
 
-#fin{
-    background-color: rgb(18, 190, 18);
-    border: 2px solid white;
-    font-weight: lighter;
-}
 
-#lista{
-    display: none;
-}
+
